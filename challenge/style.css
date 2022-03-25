@@ -112,7 +112,6 @@ body{
 
 
 .Image-Container4{
-    display:block;
     position: relative;
     width:264px;
     height:383px;
@@ -125,10 +124,30 @@ body{
     width: 100%;
 }
 
+.Image-Container5{
+    position: relative;
+    width: 264px;
+    height: 383px;
+    left: 493px;
+}
 
+.Image-Container5 img{
+    position: absolute;
+    width: 100%;
+}
 
+.Image-Container6{
+    position: relative;
+    width: 264px;
+    height: 383px;
+    top: -531px;
+    left: 884px;
+}
 
-
+.Image-Container6 img{
+    position: absolute;
+    width: 100%;
+}
 
 
 
@@ -136,9 +155,10 @@ body{
 
 /* Footer */
 .Copyright{
-    display:flex;
-    justify-content:center;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -22%;
 }
 
 .Copyright .CopyT{
