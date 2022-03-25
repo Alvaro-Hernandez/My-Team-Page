@@ -149,10 +149,6 @@ body{
     width: 100%;
 }
 
-
-
-
-
 /* Footer */
 .Copyright{
     display: flex;
@@ -168,4 +164,14 @@ body{
     line-height: 17px;
     text-align: center;
     color: #8b8b8b;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 480px) {
+    .Copyright{
+        width: 280px;
+        left: 40px;
+        top: 908px;
+    }
 }
