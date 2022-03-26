@@ -206,12 +206,31 @@ body{
 
     .Image-Container2{
         top: -297px;
-        left: 190px;
+        left: 182px;
     }
 
     .Image-Container2 img{
         width: 50%;
     }
+
+    .Image-Container3{
+        top: -450px;
+        left:20px;
+    }
+
+    .Image-Container3 img{
+        width: 50%;
+    }
+
+    .Image-Container4{
+        top: -780px;
+        left: 182px;
+    }
+
+    .Image-Container4 img{
+        width: 50%;
+    }
+
     .Copyright{
         width: 280px;
         left: 40px;
