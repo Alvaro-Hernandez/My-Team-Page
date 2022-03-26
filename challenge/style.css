@@ -169,6 +169,22 @@ body{
 /* Responsive */
 
 @media screen and (max-width: 480px) {
+
+    .Container-Text .Text-1{
+        font-size: 40px;
+        left: 20px;
+    }
+
+    .Conteiner-Description{
+        margin-top:100px;
+        margin-left: 20px;
+        width:333px;
+    }
+    
+    .Conteiner-Description p{
+        font-size: 14px;
+    }
+
     .Copyright{
         width: 280px;
         left: 40px;
