@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
-*{
+* {
     margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     box-sizing: border-box;
-    height: 100vh;
 }
 
-.Container-Text .Text-1{
+.Container-Text .Text-1 {
     position: absolute;
     left: 100px;
     top: 30px;
-    font-family: 'PT Serif',serif;
+    font-family: 'PT Serif', serif;
     color: #000000;
     font-weight: bold;
     font-size: 36px;
@@ -22,7 +22,7 @@ body{
     letter-spacing: -0.045em;
 }
 
-.Conteiner-Description{
+.Conteiner-Description {
     display: flex;
     flex-direction: column;
     margin-top: 25px;
@@ -30,7 +30,7 @@ body{
     width: 447px;
 }
 
-.Conteiner-Description h1{
+.Conteiner-Description h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -38,7 +38,7 @@ body{
     text-transform: uppercase;
 }
 
-.Conteiner-Description p{
+.Conteiner-Description p {
     color: #000000;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -46,33 +46,33 @@ body{
     line-height: 27px;
 }
 
-.Image-Container{
-    display:inline-block;
+.Image-Container {
+    display: inline-block;
     position: relative;
-    width:264px;
-    height:383px;
+    width: 264px;
+    height: 383px;
     top: 60px;
-    left:100px;
+    left: 100px;
 }
 
-.Image-Container img{
+.Image-Container img {
     position: absolute;
     width: 100%;
 }
 
-.Img-Text h1{
+.Img-Text h1 {
     position: relative;
     left: 148px;
     top: 130px;
     color: #000000;
-    font-family: 'PT Serif',serif;
+    font-family: 'PT Serif', serif;
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
     transform: rotate(90deg);
 }
 
-.Img-Text h2{
+.Img-Text h2 {
     position: relative;
     top: 375px;
     color: #000000;
@@ -82,82 +82,82 @@ body{
     line-height: 27px;
 }
 
-.Image-Container2{
-    display:inline-block;
+.Image-Container2 {
+    display: inline-block;
     position: relative;
-    width:264px;
-    height:383px;
+    width: 264px;
+    height: 383px;
     top: 170px;
-    left:220px;
+    left: 220px;
 }
 
-.Image-Container2 img{
+.Image-Container2 img {
     position: absolute;
     width: 100%;
 }
 
-.Image-Container3{
-    display:inline-block;
+.Image-Container3 {
+    display: inline-block;
     position: relative;
-    width:264px;
-    height:383px;
+    width: 264px;
+    height: 383px;
     top: 60px;
-    left:340px;
+    left: 340px;
 }
 
-.Image-Container3 img{
+.Image-Container3 img {
     position: absolute;
     width: 100%;
 }
 
 
-.Image-Container4{
+.Image-Container4 {
     position: relative;
-    width:264px;
-    height:383px;
+    width: 264px;
+    height: 383px;
     top: 241px;
-    left:100px;
+    left: 100px;
 }
 
-.Image-Container4 img{
+.Image-Container4 img {
     position: absolute;
     width: 100%;
 }
 
-.Image-Container5{
+.Image-Container5 {
     position: relative;
     width: 264px;
     height: 383px;
     left: 493px;
 }
 
-.Image-Container5 img{
+.Image-Container5 img {
     position: absolute;
     width: 100%;
 }
 
-.Image-Container6{
+.Image-Container6 {
     position: relative;
     width: 264px;
-    height: 383px;
+    height: 100px;
     top: -531px;
     left: 884px;
 }
 
-.Image-Container6 img{
+.Image-Container6 img {
     position: absolute;
     width: 100%;
 }
 
 /* Footer */
-.Copyright{
+.Copyright {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -22%;
+    top: 100%;
 }
 
-.Copyright .CopyT{
+.Copyright .CopyT {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -170,70 +170,83 @@ body{
 
 @media screen and (max-width: 480px) {
 
-    .Container-Text .Text-1{
+    .Container-Text .Text-1 {
         font-size: 40px;
         left: 20px;
     }
 
-    .Conteiner-Description{
-        margin-top:100px;
+    .Conteiner-Description {
+        margin-top: 100px;
         margin-left: 20px;
-        width:333px;
+        width: 317px;
     }
-    
-    .Conteiner-Description p{
+
+    .Conteiner-Description p {
         font-size: 14px;
     }
 
-    .Image-Container{
-        top: 30px;
-        left:20px;
+    .Image-Container {
+        position: absolute;
+        top: 260px;
+        left: 20px;
+        width: 132px;
     }
 
-    .Image-Container img{
-        width:50%;
-    }
-
-    .Img-Text h1{
-        left: 10px;
+    .Img-Text h1 {
+        top: 60px;
+        left: 75px;
         font-size: 10px;
     }
 
-    .Img-Text h2{
+    .Img-Text h2 {
         top: 175px;
         font-size: 12px;
     }
 
-    .Image-Container2{
-        top: -297px;
+    .Image-Container2 {
+        position: absolute;
+        top: 315px;
         left: 182px;
+        width: 132px;
     }
 
-    .Image-Container2 img{
-        width: 50%;
+    .Image-Container3 {
+        position: absolute;
+        top: 555px;
+        left: 20px;
+        width: 132px;
     }
 
-    .Image-Container3{
-        top: -450px;
-        left:20px;
-    }
-
-    .Image-Container3 img{
-        width: 50%;
-    }
-
-    .Image-Container4{
-        top: -780px;
+    .Image-Container4 {
+        position: absolute;
+        top: 603px;
         left: 182px;
+        width: 132px;
     }
 
-    .Image-Container4 img{
-        width: 50%;
+
+    .Image-Container5 {
+        position: absolute;
+        top: 833px;
+        left: 20px;
+        width: 132px;
     }
 
-    .Copyright{
-        width: 280px;
-        left: 40px;
-        top: 908px;
+    .Image-Container6 {
+        position: absolute;
+        top: 883px;
+        left: 182px;
+        width: 132px;
+        height: 0px;
+    }
+
+    .Copyright {
+        position: absolute;
+        margin-top: 513px;
+        margin-left: 13px;
+    }
+
+    .Copyright .CopyT {
+        font-size: 13px;
     }
 }
