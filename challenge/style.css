@@ -185,6 +185,33 @@ body{
         font-size: 14px;
     }
 
+    .Image-Container{
+        top: 30px;
+        left:20px;
+    }
+
+    .Image-Container img{
+        width:50%;
+    }
+
+    .Img-Text h1{
+        left: 10px;
+        font-size: 10px;
+    }
+
+    .Img-Text h2{
+        top: 175px;
+        font-size: 12px;
+    }
+
+    .Image-Container2{
+        top: -297px;
+        left: 190px;
+    }
+
+    .Image-Container2 img{
+        width: 50%;
+    }
     .Copyright{
         width: 280px;
         left: 40px;
